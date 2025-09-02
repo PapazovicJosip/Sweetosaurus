@@ -1,0 +1,241 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color:#ffc0cb ; /* baby roza #ffc0cb; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+
+/* Navigacija */
+nav {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero sekcija */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+    background-color: #ffc0cb;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+
+.hero h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-left: 310px;
+    position: relative;
+    z-index: 2;
+
+}
+
+.slogan {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 1.3rem;
+    position: relative;
+    z-index: 2;
+}
+
+/* Sekcije */
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Grupe kolača */
+.cake-group {
+    margin-bottom: 30px;
+}
+
+.cake-group h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.cake-group h3 a {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cake-group h3 a:hover {
+    text-decoration: underline;
+}
+
+.cake-description {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Logo */
+.logo {
+    width: 120px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.logo-small {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Kontakt */
+#contact a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 40px;
+}
+
+/* Povratak na main (podstranice) */
+.back-link {
+    display: inline-block;
+    margin: 20px 0;
+    color: white;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+/* Muffin galerija */
+.muffin-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Slike muffina */
+.cake-image {
+    width: 300px;      
+    max-width: 300px;    
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.cake-image:hover {
+    transform: scale(1.05); 
+}
+.muffin-description {
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    color: white;
+    line-height: 1.5;
+}
+
+.page-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 15px; 
+    margin-left: 420px; 
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+.rodjendanske-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-left: 310px;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+.rodj-header {
+    text-align: center; /* sve unutar headera ide lijevo */
+}
+.razni-header {
+    text-align: center; /* header lijevo poravnan */
+}
+
+.razni-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-left: 380px; /* pomak od lijevog ruba */
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+.bakini-header {
+    text-align: center; /* header poravnat lijevo */
+}
+
+.bakini-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-left: 370px; /* mala udaljenost od lijevog ruba */
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+.logo-main {
+    margin-left: center; /* koliko želiš da ide ulijevo */
+}
