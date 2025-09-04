@@ -12,21 +12,28 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#about">O nama</a></li>
-                <li><a href="#cakes">Naši kolači</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-            </ul>
+                <li><a href="#about" data-key="menu-about">O nama</a></li>
+                <li><a href="#cakes" data-key="menu-cakes">Naši kolači</a></li>
+                <li><a href="#contact" data-key="menu-contact">Kontakt</a></li>
+            </ul>    
+           
+            <div class="lang-switcher">
+                    <button data-lang="hr">HR</button>
+                    <button data-lang="en">EN</button>
+                    <button data-lang="de">DE</button>
+            </div>
+            
         </nav>
 
         <div class="hero">
-           <h1><img src="logo.jpg" alt="Logo" class="logo logo-main">Sweetosaurus</h1> 
-            <p class="slogan">A party without cake is just a meeting</p>
+           <h1><img src="logo.jpg" alt="Logo" class="logo logo-main"><span data-key="hero-title">Sweetosaurus</span></h1> 
+           <p class="slogan" data-key="hero-slogan">A party without cake is just a meeting</p>
         </div>
     </header>
 
     <section id="about">
-        <h2>O nama</h2>
-        <p class="about-text">
+        <h2 data-key="about-title">O nama</h2>
+        <p class="about-text" data-key="about-text">
             Sweetosaurus je nastao iz ljubavi prema domaćim i dekorativnim kolačima.  
             Naša priča započela je u maloj kuhinji, gdje se svaka kreacija radila s osmijehom i pažnjom.  
             Danas želimo unijeti taj osjećaj sreće i topline u vaše proslave.
@@ -34,43 +41,44 @@
     </section>
 
     <section id="cakes">
-        <h2>Naši kolači</h2>
+        <h2 data-key="cakes-title">Naši kolači</h2>
 
         <div class="cake-group">
-            <h3><a href="muffini.html"><img src="muffin23.jpg" alt="Logo" class="logo-small"> Muffini</a></h3>
-            <p class="cake-description">Mali, ali čarobni kolačići puni boja i okusa. Idealni za svaku priliku!</p>
+            <h3><a href="muffini.html" data-key="muffins-title"><img src="muffin23.jpg" alt="Logo" class="logo-small"> Muffini</a></h3>
+            <p class="cake-description" data-key="muffins-text">Mali, ali čarobni kolačići puni boja i okusa. Idealni za svaku priliku!</p>
         </div>
 
         <div class="cake-group">
-            <h3><a href="Svatovske.html"><img src="svatovska.jpg" alt="Logo" class="logo-small"> Svatovske torte</a></h3>
-            <p class="cake-description">Ručne dekoracije i elegancija za vaš najposebniji dan.</p>
+            <h3><a href="Svatovske.html" data-key="svat-title"><img src="svatovska.jpg" alt="Logo" class="logo-small"> Svatovske torte</a></h3>
+            <p class="cake-description" data-key="svat-text">Ručne dekoracije i elegancija za vaš najposebniji dan.</p>
         </div>
 
         <div class="cake-group">
-            <h3><a href="rodjendanske.html"><img src="rodjendanska.jpg" alt="Logo" class="logo-small"> Rođendanske torte</a></h3>
-            <p class="cake-description">Šarene, zabavne i nezaboravne torte za djecu i odrasle.</p>
+            <h3><a href="rodjendanske.html" data-key="rodj-title"><img src="rodjendanska.jpg" alt="Logo" class="logo-small"> Rođendanske torte</a></h3>
+            <p class="cake-description" data-key="rodj-text">Šarene, zabavne i nezaboravne torte za djecu i odrasle.</p>
         </div>
 
         <div class="cake-group">
-            <h3><a href="razni.html"><img src="razni.jpg" alt="Logo" class="logo-small"> Razni kolači</a></h3>
-            <p class="cake-description">Od tradicionalnih recepata do modernih deserata, sve s ljubavlju pripremljeno.</p>
+            <h3><a href="razni.html" data-key="razni-title"><img src="razni.jpg" alt="Logo" class="logo-small"> Razni kolači</a></h3>
+            <p class="cake-description" data-key="razni-text">Od tradicionalnih recepata do modernih deserata, sve s ljubavlju pripremljeno.</p>
         </div>
 
         <div class="cake-group">
-            <h3><a href="Bakini.html"><img src="bakini.jpg" alt="Logo" class="logo-small"> Bakini kolači</a></h3>
-            <p class="cake-description">Slatki zalogaji djetinjstva - baš kao kod bake.</p>
+            <h3><a href="Bakini.html" data-key="bakini-title"><img src="bakini.jpg" alt="Logo" class="logo-small"> Bakini kolači</a></h3>
+            <p class="cake-description" data-key="bakini-text">Slatki zalogaji djetinjstva - baš kao kod bake.</p>
         </div>
     </section>
 
     <section id="contact">
-        <h2>Kontakt</h2>
-        <p>Želite naručiti kolače ili imate pitanja?</p>
+        <h2 data-key="contact-title">Kontakt</h2>
+        <p data-key="contact-text">Želite naručiti kolače ili imate pitanja?</p>
         <p>Email: banicin.mihaela@hotmail.com</p>
         <p>Telefon: +41 764 163 311 </p>
     </section>
 
     <footer>
-        <p>&copy; 2023 Sweetosaurus</p>
+        <p data-key="footer-text">&copy; 2023 Sweetosaurus</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
