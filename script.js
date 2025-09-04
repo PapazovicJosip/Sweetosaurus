@@ -116,12 +116,30 @@ Jeder Kuchen wird nach Ihren Wünschen und Bedürfnissen hergestellt.`
   }
 };
 
-// Funkcija za promjenu jezika
 document.querySelectorAll(".lang-switcher button").forEach(btn => {
   btn.addEventListener("click", () => {
     const lang = btn.dataset.lang;
+
+    // Glavna stranica (short tekst)
+    document.querySelectorAll(".cake-description[data-key]").forEach(el => {
+      const key = el.dataset.key; // npr. muffins-short, svat-short
+      if(translations[lang][key]) {
+        el.textContent = translations[lang][key];
+      }
+    });
+
+    // Ostali tekstovi (naslovi, paragrafi, hero tekst, contact itd.)
     document.querySelectorAll("[data-key]").forEach(el => {
-      el.textContent = translations[lang][el.dataset.key];
+      const key = el.dataset.key;
+
+      // Preskoči short tekstove da ne prepiše
+      if(key.includes("-short")) return;
+
+      // Za podstranice koristi full tekst (muffins-text, rodj-text itd.)
+      if(translations[lang][key]) {
+        el.textContent = translations[lang][key];
+      }
     });
   });
 });
+
