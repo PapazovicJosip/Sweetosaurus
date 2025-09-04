@@ -120,22 +120,19 @@ document.querySelectorAll(".lang-switcher button").forEach(btn => {
   btn.addEventListener("click", () => {
     const lang = btn.dataset.lang;
 
-    // Glavna stranica (short tekst)
+    // Short tekstovi na main stranici
     document.querySelectorAll(".cake-description[data-key]").forEach(el => {
       const key = el.dataset.key;
-      if(translations[lang][key]) {
-        el.textContent = translations[lang][key];
-      }
+      if(translations[lang][key]) el.textContent = translations[lang][key];
     });
 
-    // Ostali tekstovi (naslovi, paragrafi, hero tekst, contact itd.)
+    // Ostali tekstovi i naslovi
     document.querySelectorAll("[data-key]").forEach(el => {
       const key = el.dataset.key;
 
-      // Preskoči short tekstove da ne prepiše
-      if(key.includes("-short")) return;
+      if(key.includes("-short")) return; // preskoči short tekstove
 
-      // Ako element sadrži <img>, samo promijeni tekst nakon slike
+      // Ako element sadrži <img>, promijeni samo tekst nakon slike
       const img = el.querySelector("img");
       if(img){
         img.nextSibling.textContent = " " + translations[lang][key];
@@ -145,4 +142,3 @@ document.querySelectorAll(".lang-switcher button").forEach(btn => {
     });
   });
 });
-
