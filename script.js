@@ -15,15 +15,15 @@ const translations = {
 
     // podstranice
     "muffins-title": "Muffini",
-    "muffins-text": "Naši muffini su savršeni za svaku prigodu.",
+    "muffins-short": "Naši muffini su savršeni za svaku prigodu.",
     "bakini-title": "Bakini kolači",
-    "bakini-text": "Tradicionalni recepti koji vraćaju uspomene.",
+    "bakini-short": "Tradicionalni recepti koji vraćaju uspomene.",
     "rodj-title": "Rođendanske torte",
-    "rodj-text": "Savršene torte za vaše posebne dane.",
+    "rodj-short": "Savršene torte za vaše posebne dane.",
     "svat-title": "Svatovske torte",
-    "svat-text": "Elegantne torte za vaše vjenčanje.",
+    "svat-short": "Elegantne torte za vaše vjenčanje.",
     "razni-title": "Razni kolači",
-    "razni-text": "Razni kolači za sve ukuse."
+    "razni-short": "Razni kolači za sve ukuse."
   },
   en: {
     "menu-about": "About Us",
@@ -38,6 +38,11 @@ const translations = {
     "contact-text": "Do you want to order cakes or have questions?",
     "footer-text": "© 2023 Sweetosaurus",
     "back-link": "← Back to main page",
+    "muffins-short": "Small but magical cupcakes full of color and flavor. Perfect for any occasion!",
+    "bakini-short": "Sweet bites of childhood – just like at grandma",
+    "razni-short": "From traditional recipes to modern desserts, all prepared with love.",
+    "rodj-short": "Colorful, fun, and unforgettable cakes for children and adults.",
+    "svat-short": "Handcrafted decorations and elegance for your most special day.",
 
     // subpages
     "muffins-title": "Muffins",
@@ -77,7 +82,11 @@ Each cake is crafted according to your wishes and needs.`
     "contact-text": "Möchten Sie Kuchen bestellen oder haben Sie Fragen?",
     "footer-text": "© 2023 Sweetosaurus",
     "back-link": "← Zur Hauptseite zurück",
-
+    "muffins-short": "Kleine, aber zauberhafte Muffins voller Farbe und Geschmack. Perfekt für jeden Anlass!",
+    "bakini-short": "Süße Kindheitsbissen – genau wie bei Oma",
+    "razni-short": "Von traditionellen Rezepten bis zu modernen Desserts, alle mit Liebe zubereitet.",
+    "rodj-short": "Bunte, lustige und unvergessliche Kuchen für Kinder und Erwachsene.",
+    "svat-short": "Handgefertigte Dekorationen und Eleganz für Ihren ganz besonderen Tag.",
     // Unterseiten
     "muffins-title": "Muffins",
     "muffins-text": `Unsere Muffins werden aus hochwertigen Zutaten hergestellt, wobei die Geschmacksrichtungen nach Ihren Wünschen angepasst werden. 
