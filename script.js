@@ -23,7 +23,27 @@ const translations = {
     "svat-title": "Svatovske torte",
     "svat-short": "Elegantne torte za vaše vjenčanje.",
     "razni-title": "Razni kolači",
-    "razni-short": "Razni kolači za sve ukuse."
+    "razni-short": "Razni kolači za sve ukuse.",
+    "muffins-text": `Naši muffini izrađeni su od najkvalitetnijih sastojaka, a okusi variraju prema željama kupca.  
+Možete uživati u klasičnoj vaniliji, bogatoj čokoladi, aromatičnoj pistaciji, kokosovim pahuljicama, malinama, borovnicama, limunu, kavi, lješnjacima, karamelu, cimetu, čokoladnim kapljicama, bademima, kikirikiju, naranči, matcha prahu i mnogim drugim kombinacijama.  
+Sve se prilagođava vašim željama – slobodno odaberite svoje omiljene okuse i kombinacije, a mi ćemo ih pretvoriti u savršene, sočne i dekorativne muffine!`,
+
+  "rodj-text": `Naše rođendanske torte su šarene, zabavne i izrađene po vašim željama.  
+Mogu sadržavati okuse poput vanilije, čokolade, jagode, maline, limuna, karamela, pistacije, kokosa, lješnjaka, badema, čokoladnih kapljica, naranče i mnoge druge kombinacije.  
+Svaka torta je prilagođena vašim idejama i prigodi – savršena za djecu i odrasle!`,
+
+  "svat-text": `Naše svatovske torte izrađene su s posebnom pažnjom i ručno ukrašene, prilagođene vašim željama i temi vjenčanja.  
+Mogu biti klasične bijele čokolade, vanilije, tamne čokolade, s voćnim nadjevima poput malina, jagoda ili marelica, pistacija, karamel, kokos, lješnjaci, bademi, limun, lavanda i mnogi drugi okusi.  
+Svaka torta je jedinstvena i napravljena prema vašim željama – dizajn i okusi savršeno prilagođeni vašem posebnom danu.`,
+
+  "bakini-text": `Naši Bakini kolači donose okus tradicije i domaće topline.  
+Svaki kolač se priprema prema starinskim receptima s modernim dodirom.  
+Okusi uključuju orah, lješnjak, mak, šljivu, jabuku, med, cimet, vaniliju, čokoladu i još mnogo toga.  
+Savršeni su za obiteljska druženja i posebne trenutke.`,
+
+  "razni-text": `Naši razni kolači uključuju tradicionalne i moderne recepte, uvijek svježe i s ljubavlju pripremljene.  
+Mogu sadržavati okuse poput čokolade, vanilije, malina, borovnica, limuna, kokosa, pistacija, lješnjaka, badema, karamela, cimeta, naranče, matcha i mnogih drugih kombinacija.  
+Svaki kolač se priprema prema vašim željama i potrebama.`
   },
   en: {
     "menu-about": "About Us",
