@@ -122,7 +122,7 @@ document.querySelectorAll(".lang-switcher button").forEach(btn => {
 
     // Glavna stranica (short tekst)
     document.querySelectorAll(".cake-description[data-key]").forEach(el => {
-      const key = el.dataset.key; // npr. muffins-short, svat-short
+      const key = el.dataset.key;
       if(translations[lang][key]) {
         el.textContent = translations[lang][key];
       }
@@ -135,8 +135,11 @@ document.querySelectorAll(".lang-switcher button").forEach(btn => {
       // Preskoči short tekstove da ne prepiše
       if(key.includes("-short")) return;
 
-      // Za podstranice koristi full tekst (muffins-text, rodj-text itd.)
-      if(translations[lang][key]) {
+      // Ako element sadrži <img>, samo promijeni tekst nakon slike
+      const img = el.querySelector("img");
+      if(img){
+        img.nextSibling.textContent = " " + translations[lang][key];
+      } else {
         el.textContent = translations[lang][key];
       }
     });
