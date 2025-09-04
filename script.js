@@ -41,15 +41,28 @@ const translations = {
 
     // subpages
     "muffins-title": "Muffins",
-    "muffins-text": "Our muffins are perfect for every occasion.",
+    "muffins-text":  `Our muffins are made from the highest quality ingredients, with flavors tailored to your preferences.
+You can enjoy classic vanilla, rich chocolate, aromatic pistachio, coconut flakes, raspberries, blueberries, lemon, coffee, hazelnuts, caramel, cinnamon, chocolate chips, almonds, peanuts, orange, matcha, and many other combinations.
+Everything is customized to your wishes – feel free to choose your favorite flavors and combinations, and we will turn them into perfect, moist, and beautifully decorated muffins!`,
     "bakini-title": "Grandma's Cakes",
-    "bakini-text": "Traditional recipes that bring back memories.",
+    "bakini-text": `Our Grandma's cakes bring the taste of tradition and homemade warmth.  
+Each cake is prepared using old-fashioned recipes with a touch of modern flair.  
+Flavors include walnut, hazelnut, poppy seed, plum, apple, honey, cinnamon, vanilla, chocolate, and many more.  
+They are perfect for family gatherings and special moments.`,
     "rodj-title": "Birthday Cakes",
-    "rodj-text": "Perfect cakes for your special days.",
+    "rodj-text": `Our birthday cakes are colorful, fun, and crafted according to your wishes.  
+They can feature flavors such as vanilla, chocolate, strawberry, raspberry, lemon, caramel, pistachio, coconut, hazelnuts, almonds, chocolate chips, orange, and many more.  
+Each cake is tailored to your ideas and occasion – perfect for both children and adults!`,
     "svat-title": "Wedding Cakes",
-    "svat-text": "Elegant cakes for your wedding.",
+    "svat-text": `Our wedding cakes are crafted with special care and hand-decorated, tailored to your wishes and wedding theme.  
+They can come in classic white chocolate, vanilla, dark chocolate, with fruit fillings like raspberries, strawberries, or apricots, pistachio, caramel, coconut, hazelnuts, almonds, lemon, lavender, and many other flavors.  
+Each cake is unique and made according to your desires – design and flavors perfectly customized for your special day.`,
+
     "razni-title": "Various Cakes",
-    "razni-text": "Different cakes for every taste."
+    "razni-text": `Our assorted cakes include both traditional and modern recipes, always fresh and made with love.  
+They may feature flavors such as chocolate, vanilla, raspberries, blueberries, lemon, coconut, pistachio, hazelnuts, almonds, caramel, cinnamon, orange, matcha, and many other combinations.  
+Each cake is crafted according to your wishes and needs.`
+
   },
   de: {
     "menu-about": "Über uns",
@@ -67,15 +80,30 @@ const translations = {
 
     // Unterseiten
     "muffins-title": "Muffins",
-    "muffins-text": "Unsere Muffins sind perfekt für jeden Anlass.",
+    "muffins-text": `Unsere Muffins werden aus hochwertigen Zutaten hergestellt, wobei die Geschmacksrichtungen nach Ihren Wünschen angepasst werden. 
+      Sie können klassische Vanille, reichhaltige Schokolade, aromatische Pistazie, Kokosraspeln, Himbeeren, Blaubeeren, Zitrone, Kaffee, Haselnüsse, Karamell, Zimt, Schokostückchen, Mandeln, Erdnüsse, Orange, Matcha und viele weitere Kombinationen genießen. 
+      Alles wird nach Ihren Vorstellungen individuell angepasst – wählen Sie Ihre Lieblingsgeschmacksrichtungen und -kombinationen, und wir verwandeln sie in perfekte, saftige und wunderschön dekorierte Muffins!`,
     "bakini-title": "Omas Kuchen",
-    "bakini-text": "Traditionelle Rezepte, die Erinnerungen wecken.",
+    "bakini-text": `Omas Kuchen bringen den Geschmack von Tradition und hausgemachter Wärme.  
+Jeder Kuchen wird nach altmodischen Rezepten mit einem modernen Touch zubereitet.  
+Zu den Geschmacksrichtungen gehören Walnuss, Haselnuss, Mohn, Pflaume, Apfel, Honig, Zimt, Vanille, Schokolade und viele mehr.  
+Sie sind perfekt für Familientreffen und besondere Momente.`
+,
     "rodj-title": "Geburtstagstorten",
-    "rodj-text": "Perfekte Torten für Ihre besonderen Tage.",
+    "rodj-text": `Unsere Geburtstagskuchen sind bunt, fröhlich und nach Ihren Wünschen gestaltet.  
+Sie können Geschmacksrichtungen wie Vanille, Schokolade, Erdbeere, Himbeere, Zitrone, Karamell, Pistazie, Kokos, Haselnüsse, Mandeln, Schokostückchen, Orange und viele mehr enthalten.  
+Jeder Kuchen wird nach Ihren Vorstellungen und für Ihren Anlass angepasst – perfekt für Kinder und Erwachsene!`
+,
     "svat-title": "Hochzeitstorten",
-    "svat-text": "Elegante Torten für Ihre Hochzeit.",
+    "svat-text": `Unsere Hochzeitstorten werden mit besonderer Sorgfalt und handwerklicher Dekoration hergestellt, abgestimmt auf Ihre Wünsche und das Hochzeitsthema.  
+Sie können in klassischer weißer Schokolade, Vanille, Zartbitterschokolade, mit Fruchtfüllungen wie Himbeeren, Erdbeeren oder Aprikosen, Pistazie, Karamell, Kokos, Haselnüsse, Mandeln, Zitrone, Lavendel und vielen anderen Geschmacksrichtungen erhältlich sein.  
+Jede Torte ist einzigartig und nach Ihren Wünschen gefertigt – Design und Aromen perfekt auf Ihren besonderen Tag abgestimmt.`
+,
     "razni-title": "Verschiedene Kuchen",
-    "razni-text": "Verschiedene Kuchen für jeden Geschmack."
+    "razni-text": `Unsere verschiedenen Kuchen beinhalten sowohl traditionelle als auch moderne Rezepte, stets frisch und mit Liebe zubereitet.  
+Sie können Geschmacksrichtungen wie Schokolade, Vanille, Himbeeren, Blaubeeren, Zitrone, Kokos, Pistazie, Haselnüsse, Mandeln, Karamell, Zimt, Orange, Matcha und viele weitere Kombinationen enthalten.  
+Jeder Kuchen wird nach Ihren Wünschen und Bedürfnissen hergestellt.`
+
   }
 };
 
