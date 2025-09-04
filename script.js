@@ -140,21 +140,20 @@ document.querySelectorAll(".lang-switcher button").forEach(btn => {
   btn.addEventListener("click", () => {
     const lang = btn.dataset.lang;
 
-    // Short tekstovi na main stranici
-    document.querySelectorAll(".cake-description[data-key]").forEach(el => {
-      const key = el.dataset.key;
-      if(translations[lang][key]) el.textContent = translations[lang][key];
-    });
-
-    // Ostali tekstovi i naslovi
     document.querySelectorAll("[data-key]").forEach(el => {
       const key = el.dataset.key;
 
-      if(key.includes("-short")) return; // preskoči short tekstove
+      // Ako element ima "-short", promijeni ga samo ako postoji u translations
+      if(key.includes("-short")) {
+        if(translations[lang][key]) el.textContent = translations[lang][key];
+        return;
+      }
 
       // Ako element sadrži <img>, promijeni samo tekst nakon slike
       const img = el.querySelector("img");
       if(img){
+        // Ako nema nextSibling, stvori textNode
+        if(!img.nextSibling) img.parentNode.appendChild(document.createTextNode(""));
         img.nextSibling.textContent = " " + translations[lang][key];
       } else {
         el.textContent = translations[lang][key];
